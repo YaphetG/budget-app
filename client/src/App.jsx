@@ -14,6 +14,7 @@ import ExpensesPage from './pages/ExpensesPage';
 import AddExpensePage from './pages/AddExpensePage';
 import IncomesPage from './pages/IncomesPage';
 import AddIncomePage from './pages/AddIncomePage';
+import BudgetPage from './pages/BudgetPage';
 import NotFoundPage from './pages/NotFoundPage';
 import MainLayout from './components/MainLayout';
 
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: '/add-income',
         element: <AddIncomePage />,
+      },
+      {
+        path: '/budgets',
+        element: <BudgetPage />,
       },
     ],
   },

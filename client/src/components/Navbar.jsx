@@ -13,6 +13,7 @@ function Navbar() {
       <Link to="/expenses" style={{ marginRight: '1rem' }}>Expenses</Link>
       <Link to="/incomes" style={{ marginRight: '1rem' }}>Incomes</Link>
       <Link to="/categories" style={{ marginRight: '1rem' }}>Categories</Link>
+      <Link to="/budgets" style={{ marginRight: '1rem' }}>Budgets</Link>
       <div style={{ float: 'right' }}>
         {user && <span style={{ marginRight: '1rem' }}>{user.email}</span>}
         <button onClick={logOut}>Log Out</button>
