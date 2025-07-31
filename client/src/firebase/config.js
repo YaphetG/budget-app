@@ -1,17 +1,14 @@
-// client/src/firebase/config.js
-// This is a placeholder file. Replace the contents with your actual Firebase config.
-
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDvim8_u_80uXCWeDERG2pqIGZJQQgYCIA",
+  authDomain: "budget-app-5a831.firebaseapp.com",
+  projectId: "budget-app-5a831",
+  storageBucket: "budget-app-5a831.appspot.com",
+  messagingSenderId: "647041446085",
+  appId: "1:647041446085:web:35960b4dfc3f1e5a3d40ac"
 };
 
 // Initialize Firebase
